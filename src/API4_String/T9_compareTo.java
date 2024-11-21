@@ -15,7 +15,7 @@ public class T9_compareTo {
 		System.out.println("c: "+c);
 		System.out.println();
 		
-//		compareTo() : 아스키코드로 앞문자에서 뒤문자 하나씩 빼서 그 숫자 반환?
+//		compareTo() : 유니코드값으로 앞문자에서 뒤문자 하나씩 빼서 그 숫자 반환?
 //					  문자열 비교 메소드(0:동일자료, 음수:앞의 문자열이 뒤의 문자열보다 작다, 양수: 앞의 문자열이 뒤의 문자열보다 크다.
 		System.out.println(a.compareTo(b));
 		System.out.println(a.compareTo(c));
